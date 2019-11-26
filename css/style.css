@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	src:url(../font/basictitlefont.ttf);
+	font-family:Basic;
+}
+@font-face{
+	src:url(../font/KOZGOPR6N-EXTRALIGHT.OTF);
+	font-family:koz;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	margin:0;
+	background: #0CF;
+}
+#nav-list, .nav-inner, .nav-list-item, #nav-list-item{
+	background-color:#606;
+	color: #FFF;
+	text-decoration: none;
+	height: 15px;
+	display: block;
+	font-family:basic;
+	float: left;
+	font-size:26px;
+	text-align: center;
+	transition: 0.4s;
+	-moz-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	padding-top:25px;
+	margin-top:-24px;
+	left: 30px;
+}
+
+/*navbar border*/
+#nav{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: 65px;
+	font-size: 23px;
+	margin-top: 0px;
+	left:0;
+	z-index:1;
+	background-color:#606;
+	display:block;
+}
+
+#nav-list:hover {
+	background-color:rgba(255,255,255,0.5);
+	color: #FFF;
+}
+#nava{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 60px;
+	font-size: 24px;
+	margin-top: 0px;
+	left:0;
+	z-index:4;
+	display:block;
+}
+
+				.logoatas{
+					width: 60px;
+					height: 60px;
+					display: block;
+					position: absolute;
+					top: 0px;
+					left: 5px;
+					z-index: 10;
+					background-image: url(../img/lo.png);
+					background-size: 100% auto;
+					background-repeat: no-repeat;
+				}
+.container{
+	width: 100%;
+	height: 100%;
+	display:block;
+	position:fixed;
+	left:0;
+}
+	.cokiri{
+		width: 100%;
+		height: 300px;
+		background-color: rgba(255,255,255,0.3);
+		display:block;
+		position:absolute;
+		left:0;
+		top:52px;
+		overflow: hidden;
+		background-repeat:no-repeat;
+	}
+	.cokanan{
+		width: 100%;
+		height: 10%;
+		display:block;
+		position:absolute;
+		left:0;
+		top:52.5%;
+		overflow: hidden;
+		background-color:rgba(102,51,153,0.5);
+		text-align:center;
+		font-size:50px;
+		color:#FFF;
+		background-repeat:no-repeat;
+	}
+		.cokanan_k1{
+			width: 300px;
+			height: 100%;
+			display:block;
+			position:absolute;
+			background-image:url(../images/smk.png);
+			background-size:100% auto;
+			left:50%;
+			top:0;
+			margin-left:-150px;
+		}
+			.cokanan_k1_a{
+				width: 500px;
+				height: 50px;
+				background-color: rgba(0,102,255,0.6);
+				display:block;
+				position:absolute;
+				left:50%;
+				top:65%;
+				margin-left:-250px;				
+				font-size:36px;
+				color:#FFF;
+				text-align:center;
+			}
+				.cokanan_k1:hover .cokanan_k1_a{
+					background: rgba(255,255,255,0.2);
+					color: white;
+				}
+		.cokanan_k2{
+			width: 50%;
+			height: 10%;
+			display:block;
+			background-color: #FF781F;
+			position:absolute;
+			left:0;
+			top:35%;
+		}
+			.cokanan_k2_a{
+				width: 100%;
+				height: 100%;
+				background-color: #FF781F;
+				display:block;
+				position:absolute;
+				left:0;
+				top:0;
+				background-image: url(../img/fb1.png);
+				background-size: auto 100%;
+				background-repeat: no-repeat;
+			}
+				.cokanan_k2:hover .cokanan_k2_a{
+					background: rgba(255,255,255,0.2);
+					color: white;
+				}
+		a:link{text-decoration:none;}
+		.cokanan_k3{
+			width: 150px;
+			height: 50px;;
+			display:block;
+			background-color: rgba(0,102,255,0.6);
+			position:absolute;
+			left:50%;
+			top:70%;
+			margin-left:-75px;
+			text-align:center;
+			color:#FFF;
+			font-size:38px;
+		}
+			.cokanan_k3_a{
+				width: 100%;
+				height: 100%;
+				background-color: #ff4141;
+				display:block;
+				position:absolute;
+				left:0;
+				top:0;
+				background-image: url(../img/fb1.png);
+				background-size: auto 100%;
+				background-repeat: no-repeat;
+			}
+				.cokanan_k3:hover .cokanan_k3_a{
+					background: rgba(255,255,255,0.2);
+					color: white;
+				}
+		.cokanan_k4{
+			width: 400px;
+			height: 45px;
+			display:block;
+			background-color: #020098;
+			position:absolute;
+			left:50%;
+			top:65%;
+			text-align:center;
+			color:#FFF;
+			margin-left:-200px;
+			font-size:36px;
+		}
+			.cokanan_k4_a{
+				width: 100%;
+				height: 100%;
+				background-color: #020098;
+				display:block;
+				position:absolute;
+				left:0;
+				top:0;
+				background-image: url(../img/fb1.png);
+				background-size: auto 100%;
+				background-repeat: no-repeat;
+			}
+				.cokanan_k4:hover .cokanan_k4_a{
+					background: rgba(255,255,255,0.2);
+					color: white;
+				}
+table input, select{
+	width:250px;
+	border:none;
+	height:25px;
+}
+tr, td{
+	border:solid 1px rgba(255,255,255,0.4);
+}

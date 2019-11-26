@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ext_agama" value="name:id_agama;datatype:int,name:nama;datatype:string,name:status;datatype:int" />
+</info>

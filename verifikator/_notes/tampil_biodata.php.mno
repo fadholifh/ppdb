@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ppdb_biodata" value="name:id_ppdb;datatype:int,name:nomor_pendaftaran;datatype:string,name:nama_lengkap;datatype:string,name:jenis_kelamin;datatype:string,name:asal_sekolah;datatype:string,name:status_hapus;datatype:int,name:status_sah;datatype:int,name:status_terima;datatype:int" />
+</info>

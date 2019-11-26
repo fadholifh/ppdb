@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ppdb_nilai" value="name:nama_lengkap;datatype:string,name:mapel_matematika;datatype:real,name:mapel_bindonesia;datatype:real,name:mapel_binggris;datatype:real,name:mapel_ilmupengetahuanalam;datatype:real,name:sah;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ppdb_biodata" value="name:id_ppdb;datatype:int,name:nama_lengkap;datatype:string,name:nomor_pendaftaran;datatype:string,name:id_program_studi;datatype:int,name:nama_studi;datatype:string,name:tempat_lahir;datatype:string,name:tanggal_lahir;datatype:date" />
+	<infoitem key="UD_ppdb_nilai" value="name:id_ppdb_nilai;datatype:int,name:id_ppdb;datatype:int,name:mapel_matematika;datatype:real,name:mapel_bindonesia;datatype:real,name:mapel_binggris;datatype:real,name:mapel_ilmupengetahuanalam;datatype:real,name:total_nilai;datatype:real,name:sah;datatype:int,name:status;datatype:int" />
+</info>

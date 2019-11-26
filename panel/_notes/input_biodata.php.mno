@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ext_agama" value="name:id_agama;datatype:int,name:nama;datatype:string,name:status;datatype:int" />
+	<infoitem key="UD_ext_pekerjaan_ibu" value="name:id_pekerjaan_ortu;datatype:int,name:tipe_pekerjaan;datatype:int,name:nama_pekerjaan;datatype:string,name:status;datatype:int" />
+	<infoitem key="UD_ext_pekerjaan_ayah" value="name:id_pekerjaan_ortu;datatype:int,name:tipe_pekerjaan;datatype:int,name:nama_pekerjaan;datatype:string,name:status;datatype:int" />
+	<infoitem key="UD_ext_program_studi" value="name:id_program_studi;datatype:int,name:no_studi;datatype:int,name:nama_studi;datatype:string,name:alias_studi;datatype:string,name:jumlah_kelas;datatype:int,name:jumlah_siswa;datatype:int,name:status;datatype:int" />
+</info>

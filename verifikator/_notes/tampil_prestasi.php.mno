@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ppdb_prestasi" value="name:id_prestasi;datatype:int,name:id_ppdb;datatype:int,name:nama_prestasi;datatype:string,name:peringkat_juara;datatype:int,name:tingkat_prestasi;datatype:string,name:nilai_prestasi;datatype:real,name:sah;datatype:int" />
+</info>
